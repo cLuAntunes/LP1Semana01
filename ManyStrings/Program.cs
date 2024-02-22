@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Security.Cryptography.X509Certificates;
 
 namespace ManyStrings
 {
@@ -17,6 +18,23 @@ namespace ManyStrings
             Console.WriteLine(warning);
             Console.WriteLine(message);
             Console.WriteLine(path);
+
+
+            float x = 6.7f;
+            int y = 20;
+            string s = "verycool"+ 222 + ".com";
+            string a = "How " + "are " + "you" + "?";
+            string b = "Please check: " + s + " for more information.";
+            string c = $"The result is {x + y}";
+            string d = $"The value of y is {y}";
+            string e = $"{s} is a very dangerous site.";
+
+            Console.WriteLine(s);
+            Console.WriteLine(a);
+            Console.WriteLine(b);
+            Console.WriteLine(c);
+            Console.WriteLine(d);
+            Console.WriteLine(e);
 
         }
     }
