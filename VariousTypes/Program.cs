@@ -24,6 +24,21 @@ namespace VariousTypes
             Console.WriteLine(numeroshort);
             Console.WriteLine(numeroushort);
 
+            char heart = '\u2661';
+            char club = '\u2667';
+            char diamond = '\u2662';
+            char spades = '\u2664';
+            char star = '\u2606';
+            char skull = '\u2620';
+
+            Console.WriteLine(heart);
+            Console.WriteLine(club);
+            Console.WriteLine(diamond);
+            Console.WriteLine(spades);
+            Console.WriteLine(star);
+            Console.WriteLine(skull);
+
+
         }
     }
 }
