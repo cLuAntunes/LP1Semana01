@@ -7,6 +7,14 @@ namespace ManyStrings
     {
         static void Main(string[] args)
         {
+            double xx = 1.23456;
+            int ii = 19;
+            Console.WriteLine("Número real: {0:F2}", xx);
+            Console.WriteLine("Percentagem: {0:P1}", xx);
+            Console.WriteLine("Hexadecimal: 0x{0:X}", ii);
+            Console.WriteLine("Moeda: {0:C}", ii);
+
+
             string sign = "The sign says \"Hello World!\"";
             string instruction = "Follow the arrows!\u27A5\u27A5\u27A5";
             string warning = "\u274CDon't touch the grass!\u274C";
