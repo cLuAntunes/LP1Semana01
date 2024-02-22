@@ -38,6 +38,15 @@ namespace VariousTypes
             Console.WriteLine(star);
             Console.WriteLine(skull);
 
+            double numerodouble = 3.1415;
+            float numerofloat = 46.77f;
+            decimal numerodecimal = 367.568m;
+
+            Console.WriteLine(numerodouble);
+            Console.WriteLine(numerofloat);
+            Console.WriteLine(numerodecimal);
+
+
 
         }
     }
