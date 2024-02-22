@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Reflection.Metadata;
 
 namespace VariousTypes
 {
@@ -46,7 +47,11 @@ namespace VariousTypes
             Console.WriteLine(numerofloat);
             Console.WriteLine(numerodecimal);
 
+            bool x = true;
+            bool y = false;
 
+            Console.WriteLine(x);
+            Console.WriteLine(y);
 
         }
     }
