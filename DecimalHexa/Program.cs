@@ -19,6 +19,10 @@ namespace DecimalHexa
             int num3 = int.Parse(numero3);
             int num4 = int.Parse(numero4);
 
+            Console.WriteLine($"{num1,6}  {num1,6:X}");
+            Console.WriteLine($"{num2,6}  {num2,6:X}");
+            Console.WriteLine($"{num3,6}  {num3,6:X}");
+            Console.WriteLine($"{num4,6}  {num4,6:X}");
 
         }
     }
