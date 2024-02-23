@@ -16,6 +16,12 @@ namespace AskForInput
 
             float real = float.Parse(rl);
 
+            float sum = inteiro + real;
+
+            string aws = $"The result is {sum}"; 
+
+            Console.WriteLine(aws);
+
 
         }
     }
