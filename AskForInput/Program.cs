@@ -11,7 +11,12 @@ namespace AskForInput
 
             int inteiro = int.Parse(inp);
 
-            
+            Console.WriteLine("Por favor, insira um número real: ");
+            string rl = Console.ReadLine();
+
+            float real = float.Parse(rl);
+
+
         }
     }
 }
